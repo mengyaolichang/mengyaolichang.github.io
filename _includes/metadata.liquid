@@ -241,4 +241,41 @@
         "@context": "https://schema.org"
     }
   </script>
+
+  {% comment %}
+    The block above describes the page. On the landing page also describe the
+    person, so a search engine can tie the name to the affiliations and to the
+    profiles listed in sameAs.
+  {% endcomment %}
+  {% if page.url == '/' %}
+    <script type="application/ld+json">
+      {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "{{ author_name }}",
+          "url": "{{ site.url }}{{ site.baseurl }}/",
+          {% if page.profile.image %}
+            "image": "{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.profile.image }}",
+          {% endif %}
+          "jobTitle": "Student Intern",
+          "affiliation": [
+            {
+              "@type": "ResearchOrganization",
+              "name": "Robotics Institute, Carnegie Mellon University",
+              "url": "https://www.ri.cmu.edu/"
+            },
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "College of Engineering, Peking University",
+              "url": "https://www.coe.pku.edu.cn/"
+            }
+          ],
+          "knowsAbout": ["Applied mathematics", "Control theory", "Robotics", "Information theory"],
+          {% if sameaslinks != blank %}
+            "sameAs": {{ sameaslinks | jsonify }},
+          {% endif %}
+          "email": "mailto:{{ site.data.socials.email }}"
+      }
+    </script>
+  {% endif %}
 {% endif %}
