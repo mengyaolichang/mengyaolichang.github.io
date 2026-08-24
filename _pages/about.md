@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate, Peking University &nbsp;·&nbsp; Student Intern, <a href="https://www.ri.cmu.edu/">Robotics Institute</a>, Carnegie Mellon University
+subtitle: Undergraduate, <a href="https://www.coe.pku.edu.cn/">College of Engineering</a>, <a href="https://english.pku.edu.cn/">Peking University</a><br>Student Intern, <a href="https://www.ri.cmu.edu/">Robotics Institute</a>, <a href="https://www.cmu.edu/">Carnegie Mellon University</a>
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Newell-Simon Hall A403</p>
-    <p>5000 Forbes Avenue</p>
+    <p>4804 Forbes Avenue</p>
     <p>Pittsburgh, PA 15213</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an undergraduate in Robotics Engineering at [Peking University](https://english.pku.edu.cn/), expecting my B.E. in 2027; I started there in Economics before moving to robotics. Since June 2026 I have been a student intern at the [Robotics Institute](https://www.ri.cmu.edu/), Carnegie Mellon University.
+I am an undergraduate in Robotics Engineering at [Peking University](https://english.pku.edu.cn/), expecting my B.E. in 2027; I started there in economics before moving to robotics. Since June 2026 I have been a student intern at the [Robotics Institute](https://www.ri.cmu.edu/), Carnegie Mellon University.
 
 I work in applied mathematics, with interests in control theory, robotics, and neighbouring areas.
 
