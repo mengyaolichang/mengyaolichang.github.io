@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an undergraduate in Robotics Engineering at [Peking University](https://english.pku.edu.cn/), expecting my B.E. in 2027; I started there in economics before moving to robotics. Since June 2026 I have been a student intern at the [Robotics Institute](https://www.ri.cmu.edu/), Carnegie Mellon University.
+I am an undergraduate in Robotics Engineering at Peking University, expecting my B.E. in 2027; I started there in economics before moving to robotics. Since June 2026 I have been a student intern at the Robotics Institute, Carnegie Mellon University.
 
 I work in applied mathematics, with interests in control theory, robotics, information theory, and neighbouring areas.
 
