@@ -1,0 +1,15 @@
+/*******************************************************************************
+ * Site-specific overrides. Keep local changes here rather than editing the
+ * theme partials, so upstream al-folio updates stay easy to merge.
+ ******************************************************************************/
+
+// The name in the page header is set in a light weight rather than the
+// theme's bold display face.
+.post-header .post-title {
+  font-weight: 300;
+  letter-spacing: -0.015em;
+}
+
+.post-header .desc {
+  font-weight: 400;
+}
