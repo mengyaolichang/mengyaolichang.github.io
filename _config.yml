@@ -13,7 +13,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   at the Robotics Institute, Carnegie Mellon University, working in applied mathematics.
 footer_text: >
   © Liyao Chang. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
-keywords: Liyao Chang, robotics, Carnegie Mellon University, Robotics Institute, robot learning, academic homepage
+keywords: Liyao Chang, applied mathematics, control theory, robotics, Carnegie Mellon University, Robotics Institute, Peking University
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
