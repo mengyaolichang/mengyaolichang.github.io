@@ -9,7 +9,8 @@ last_name: Chang
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Liyao Chang is a robotics researcher at the Robotics Institute, Carnegie Mellon University.
+  Liyao Chang is an undergraduate in Robotics Engineering at Peking University and a student intern
+  at the Robotics Institute, Carnegie Mellon University, working in applied mathematics.
 footer_text: >
   © Liyao Chang. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
 keywords: Liyao Chang, robotics, Carnegie Mellon University, Robotics Institute, robot learning, academic homepage
@@ -121,12 +122,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
