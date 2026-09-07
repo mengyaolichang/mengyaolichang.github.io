@@ -56,6 +56,16 @@
       description:
         - Under review at IEEE Signal Processing Letters
 
+- title: Academic Service
+  type: time_table
+  contents:
+    - title: Reviewer
+      year: 2026
+      description:
+        - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)
+        - NeurIPS 2026 Workshop DynaFront
+        - NeurIPS 2026 Workshop GDDL
+
 - title: Research Interests
   type: nested_list
   contents:
