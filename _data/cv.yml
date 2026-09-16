@@ -34,6 +34,11 @@
       description:
         - Bowen Si, <strong>Liyao Chang</strong>, Shuai Li, Zhenyu Ding, Guangming Xie
         - Science Advances 12(2), eadz2458
+    - title: Spontaneous Directional Order in One-Bit Extremum-Seeking Swarms
+      year: 2026
+      description:
+        - <strong>Liyao Chang</strong>
+        - "IROS 2026 Workshop on Miniature Multiterrain and Multimodal Locomotion: from Biology to Robotics"
     - title: A Geometric Method of Generalized Hoverability and Robustness Analysis for Marine Inspection UAVs
       year: 2026
       description:
@@ -43,18 +48,30 @@
 - title: Preprints and Manuscripts Under Review
   type: time_table
   contents:
+    - title: The Optimal Condition Number for Leaky ReLU Function
+      year: 2026
+      description:
+        - IEEE Signal Processing Letters, accepted with mandatory minor revisions
+    - title: Measure-Based Razumikhin Conditions for Delay Systems
+      year: 2026
+      description:
+        - IEEE Control Systems Letters, revise and resubmit
     - title: Geometric Classification of Singularity Varieties for (2n+1)R Circular Manipulators
       year: 2026
       description:
         - Under review at IEEE Robotics and Automation Letters
-    - title: Measure-Based Razumikhin Conditions for Delay Systems
-      year: 2026
-      description:
-        - Under review at IEEE Control Systems Letters
-    - title: The Optimal Condition Number for Leaky ReLU Function
+    - title: A Phase Transition for Shifted-Composition Transport Bounds on Rényi Divergence
       year: 2026
       description:
         - Under review at IEEE Signal Processing Letters
+    - title: Optimal Online Bookmaking on Bipartite Graphs
+      year: 2026
+      description:
+        - Under review at IEEE Control Systems Letters
+    - title: One-Sided Budget Uncertainty in General Lotto Games
+      year: 2026
+      description:
+        - Under review at IEEE Control Systems Letters
 
 - title: Academic Service
   type: time_table
@@ -63,8 +80,9 @@
       year: 2026
       description:
         - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)
-        - NeurIPS 2026 Workshop DynaFront
-        - NeurIPS 2026 Workshop GDDL
+        - IEEE Control Systems Letters (L-CSS)
+        - "NeurIPS 2026 Workshop on Dynamics at the Frontiers of Optimization, Sampling, and Games (DynaFront)"
+        - NeurIPS 2026 Workshop on Geometric Distributional Deep Learning (GDDL)
 
 - title: Research Interests
   type: nested_list

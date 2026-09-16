@@ -64,6 +64,24 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Academic service, read from the matching section of _data/cv.yml -->
+    {% if page.service %}
+      {% assign service = site.data.cv | where: 'title', 'Academic Service' | first %}
+      {% if service %}
+        <h2>academic service</h2>
+        <div class="service">
+          {% for entry in service.contents %}
+            <p class="mb-1">{{ entry.title }}</p>
+            <ul>
+              {% for venue in entry.description %}
+                <li>{{ venue }}</li>
+              {% endfor %}
+            </ul>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">

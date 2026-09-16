@@ -14,6 +14,7 @@ profile:
     <p>Pittsburgh, PA 15213</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+service: true # lists the Academic Service section of _data/cv.yml
 social: true # includes social icons at the bottom of the page
 
 announcements:
