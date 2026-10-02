@@ -45,6 +45,14 @@
       year: 2026
       description:
         - NeurIPS 2026 Workshop on Geometric Distributional Deep Learning (GDDL) (poster)
+    - title: Sharpness of Transport Bounds on Rényi Divergence along Diffusions
+      year: 2026
+      description:
+        - "NeurIPS 2026 Workshop on AI for Stochastic Dynamics: From Theoretical Foundations to Scientific Applications (STODY) (poster)"
+    - title: The Newsvendor with Distributional Advice
+      year: 2026
+      description:
+        - "Second Workshop on ML×OR: Mathematical Foundations and Operational Integration of Machine Learning for Uncertainty-Aware Decision-Making (MLxOR), NeurIPS 2026 (poster)"
     - title: A mean-field game on the diffusive point-vortex system and short-time solutions of the two-dimensional Navier–Stokes equations
       year: 2026
       description:
@@ -81,14 +89,6 @@
       year: 2026
       description:
         - Under review at IEEE Signal Processing Letters
-    - title: Sharpness of Transport Bounds on Rényi Divergence along Diffusions
-      year: 2026
-      description:
-        - "Under review, NeurIPS 2026 Workshop on AI for Stochastic Dynamics: From Theoretical Foundations to Scientific Applications (STODY)"
-    - title: The Newsvendor with Distributional Advice
-      year: 2026
-      description:
-        - "Under review, Second Workshop on ML×OR: Mathematical Foundations and Operational Integration of Machine Learning for Uncertainty-Aware Decision-Making (MLxOR), NeurIPS 2026"
     - title: Optimal Online Bookmaking on Bipartite Graphs
       year: 2026
       description:
