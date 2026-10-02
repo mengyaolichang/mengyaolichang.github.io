@@ -33,6 +33,18 @@
       year: 2026
       description:
         - Science Advances 12(2), eadz2458
+    - title: The Optimal Condition Number for Leaky ReLU Function
+      year: 2026
+      description:
+        - IEEE Signal Processing Letters (accepted)
+    - title: Projected Hessian Direction Estimation by Comparisons under Hölder Smoothness
+      year: 2026
+      description:
+        - 18th International OPT Workshop on Optimization for Machine Learning (OPT 2026), NeurIPS 2026 (poster)
+    - title: Sharpness of Transport Bounds on Rényi Divergence on Curved Spaces
+      year: 2026
+      description:
+        - NeurIPS 2026 Workshop on Geometric Distributional Deep Learning (GDDL) (poster)
     - title: A mean-field game on the diffusive point-vortex system and short-time solutions of the two-dimensional Navier–Stokes equations
       year: 2026
       description:
@@ -57,10 +69,6 @@
 - title: Preprints and Manuscripts Under Review
   type: time_table
   contents:
-    - title: The Optimal Condition Number for Leaky ReLU Function
-      year: 2026
-      description:
-        - IEEE Signal Processing Letters, accepted with mandatory minor revisions
     - title: Measure-Based Razumikhin Conditions for Delay Systems
       year: 2026
       description:
@@ -73,6 +81,14 @@
       year: 2026
       description:
         - Under review at IEEE Signal Processing Letters
+    - title: Sharpness of Transport Bounds on Rényi Divergence along Diffusions
+      year: 2026
+      description:
+        - "Under review, NeurIPS 2026 Workshop on AI for Stochastic Dynamics: From Theoretical Foundations to Scientific Applications (STODY)"
+    - title: The Newsvendor with Distributional Advice
+      year: 2026
+      description:
+        - "Under review, Second Workshop on ML×OR: Mathematical Foundations and Operational Integration of Machine Learning for Uncertainty-Aware Decision-Making (MLxOR), NeurIPS 2026"
     - title: Optimal Online Bookmaking on Bipartite Graphs
       year: 2026
       description:
