@@ -1,0 +1,12 @@
+# Links shown in the "links" section of the landing page.
+#
+# Each entry needs a name and a url; note is optional and is shown after a dash.
+# The section disappears entirely while this file has no entries, so it is safe
+# to leave it empty.
+#
+# - name: Jane Doe
+#   url: https://example.edu/~jane/
+#   note: Robotics Institute, CMU
+#
+# - name: Some Lab
+#   url: https://lab.example.edu/

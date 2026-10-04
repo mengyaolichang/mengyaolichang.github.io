@@ -82,6 +82,19 @@ layout: default
       {% endif %}
     {% endif %}
 
+    <!-- Links, read from _data/links.yml; hidden while that file is empty -->
+    {% if page.links and site.data.links and site.data.links.size > 0 %}
+      <h2>links</h2>
+      <ul class="links">
+        {% for item in site.data.links %}
+          <li>
+            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>
+            {% if item.note %}<span class="text-muted"> &mdash; {{ item.note }}</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">

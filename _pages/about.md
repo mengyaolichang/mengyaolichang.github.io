@@ -15,6 +15,7 @@ profile:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 service: true # lists the Academic Service section of _data/cv.yml
+links: true # lists _data/links.yml; the section is hidden while that file is empty
 social: true # includes social icons at the bottom of the page
 
 announcements:
