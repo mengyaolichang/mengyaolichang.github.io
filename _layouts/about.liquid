@@ -104,6 +104,16 @@ layout: default
       </div>
     {% endif %}
 
+    <!-- Visitor map, configured under `visitor_map` in _config.yml -->
+    {% if site.visitor_map and site.visitor_map.enabled and site.visitor_map.embed %}
+      <div class="visitor-map mt-4 text-center">
+        {{ site.visitor_map.embed }}
+        {% if site.visitor_map.caption %}
+          <p class="text-muted mt-2">{{ site.visitor_map.caption }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
