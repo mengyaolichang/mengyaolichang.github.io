@@ -98,8 +98,9 @@
   type: time_table
   contents:
     - title: Reviewer
-      year: 2026
+      year: 2026 - 2027
       description:
+        - IEEE International Conference on Robotics and Automation (ICRA 2027)
         - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)
         - IEEE Control Systems Letters (L-CSS)
         - "NeurIPS 2026 Workshop on Dynamics at the Frontiers of Optimization, Sampling, and Games (DynaFront)"
