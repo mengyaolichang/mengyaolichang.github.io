@@ -24,18 +24,10 @@
   title={The Optimal Condition Number for Leaky ReLU Function},
   journal={IEEE Signal Processing Letters},
   year={2026},
-  note={Accepted},
-  abstract={The condition number of a network layer, the ratio of its optimal upper and lower Lipschitz constants, measures how severely the layer distorts distances between inputs. Extending the ReLU result of Xia and Zhou, we establish the analogous pair of results for Leaky ReLU with leakage coefficient between 0 and 1. A pointwise algebraic identity decomposes the squared distance between Leaky ReLU images into two standard ReLU terms and one linear term, so existing concentration estimates transfer without modification. The optimal condition number equals sqrt(2(1+alpha^2))/(1+alpha): no choice of weights improves on it, Gaussian weights achieve it asymptotically, and it decreases strictly from sqrt(2) at alpha = 0 to 1 at alpha = 1, quantifying the geometric benefit of leakage.}
-}
-
-@unpublished{chang2026razumikhin,
-  abbr={L-CSS},
-  bibtex_show={true},
-  selected={true},
-  title={Measure-Based Razumikhin Conditions for Delay Systems},
-  year={2026},
-  note={IEEE Control Systems Letters, revise and resubmit},
-  abstract={In integral Lyapunov-Razumikhin conditions, the current value of a Lyapunov function is compared with a weighted integral of its recent history instead of the maximum over the delay window. This paper formulates the comparison with an arbitrary finite positive Borel measure on the delay window and establishes global stability, uniform global asymptotic stability, and input-to-state stability by an elementary record-point argument, recovering the known integral-kernel conditions as the absolutely continuous case. All finite Lp-type formulations are shown to be equivalent to the integral case under an exact reparameterization of the gains, so the exponent carries no structural information; for a scalar linear system with one discrete delay a certificate exists if and only if the measure places positive mass at the delay. The p = infinity endpoint, governed by the support of the measure, connects the framework to the classical maximum-type condition.}
+  publisher={IEEE},
+  doi={10.1109/LSP.2026.3742326},
+  html={https://ieeexplore.ieee.org/document/11733502},
+  abstract={The condition number of a network layer, the ratio of its optimal upper and lower Lipschitz constants, measures how much the layer distorts distances between inputs. Xia and Zhou proved that for standard ReLU this number is at least √2 for every weight matrix and bias vector, and that Gaussian initialization approaches √2 as the layer becomes wide. We establish the corresponding results for Leaky ReLU with leakage coefficient α ∈ [0,1]. An identity, exact for each neuron and each realization of the weights, writes the Leaky ReLU squared distance as a fixed combination of two standard ReLU squared distances and one linear squared distance, so the existing concentration estimates transfer without change. The optimal condition number equals √(2(1+α²))/(1+α): no weights or bias improve on it, an explicit layer of width 2n attains it exactly, and Gaussian weights approach it as the ratio of width to input dimension grows. It decreases strictly from √2 at α = 0 to 1 at α = 1, quantifying the geometric benefit of leakage.}
 }
 
 @inproceedings{chang2026opt,

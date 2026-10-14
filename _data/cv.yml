@@ -36,7 +36,7 @@
     - title: The Optimal Condition Number for Leaky ReLU Function
       year: 2026
       description:
-        - IEEE Signal Processing Letters (accepted)
+        - IEEE Signal Processing Letters
     - title: Projected Hessian Direction Estimation by Comparisons under Hölder Smoothness
       year: 2026
       description:
@@ -77,10 +77,6 @@
 - title: Preprints and Manuscripts Under Review
   type: time_table
   contents:
-    - title: Measure-Based Razumikhin Conditions for Delay Systems
-      year: 2026
-      description:
-        - IEEE Control Systems Letters, revise and resubmit
     - title: A Phase Transition for Shifted-Composition Transport Bounds on Rényi Divergence
       year: 2026
       description:
