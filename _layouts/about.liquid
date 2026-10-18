@@ -82,17 +82,23 @@ layout: default
       {% endif %}
     {% endif %}
 
-    <!-- Links, read from _data/links.yml; hidden while that file is empty -->
+    <!-- Links, read from _data/links.yml -->
     {% if page.links and site.data.links and site.data.links.size > 0 %}
       <h2>links</h2>
-      <ul class="links">
+      <div class="friend-links row row-cols-1 row-cols-md-3">
         {% for item in site.data.links %}
-          <li>
-            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>
-            {% if item.note %}<span class="text-muted"> &mdash; {{ item.note }}</span>{% endif %}
-          </li>
+          <div class="col mb-3">
+            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+              <div class="card h-100 hoverable">
+                <div class="card-body">
+                  <div class="links-name">{{ item.name }}</div>
+                  {% if item.note %}<div class="links-note text-muted">{{ item.note }}</div>{% endif %}
+                </div>
+              </div>
+            </a>
+          </div>
         {% endfor %}
-      </ul>
+      </div>
     {% endif %}
 
     <!-- Social -->

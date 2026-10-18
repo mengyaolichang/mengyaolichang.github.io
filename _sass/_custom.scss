@@ -13,3 +13,27 @@
 .post-header .desc {
   font-weight: 400;
 }
+
+// Friend links on the landing page: small cards that keep the page's
+// restrained look, so they read as a list rather than as a banner.
+.friend-links {
+  a,
+  a:hover {
+    text-decoration: none;
+  }
+
+  .card-body {
+    padding: 0.85rem 1rem;
+  }
+
+  .links-name {
+    color: var(--global-theme-color);
+    line-height: 1.3;
+  }
+
+  .links-note {
+    font-size: 0.85rem;
+    line-height: 1.35;
+    margin-top: 0.2rem;
+  }
+}

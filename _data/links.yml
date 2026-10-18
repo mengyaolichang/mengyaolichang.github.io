@@ -1,12 +1,16 @@
 # Links shown in the "links" section of the landing page.
 #
-# Each entry needs a name and a url; note is optional and is shown after a dash.
-# The section disappears entirely while this file has no entries, so it is safe
-# to leave it empty.
-#
-# - name: Jane Doe
-#   url: https://example.edu/~jane/
-#   note: Robotics Institute, CMU
-#
-# - name: Some Lab
-#   url: https://lab.example.edu/
+# Each entry needs a name and a url; note is optional and is shown under the
+# name. The section disappears entirely while this file has no entries.
+
+- name: 失去理想的獾
+  url: https://blog.cyaml.top/
+  note: Blog
+
+- name: Yi Yang
+  url: https://yiyang-23.github.io/
+  note: Robotics and embodied AI, Shanghai Jiao Tong University
+
+- name: Shuai Zhou
+  url: https://www.shuai-zhou.com/
+  note: Planning, control, and robot foundation models
