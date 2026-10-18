@@ -101,6 +101,10 @@
       year: 2026
       description:
         - Under review at IEEE Robotics and Automation Letters
+    - title: Optimal control theory for the trade-off between power and efficiency of Brownian heat engines
+      year: 2026
+      description:
+        - Under review at Physical Review E
 
 - title: Academic Service
   type: time_table
