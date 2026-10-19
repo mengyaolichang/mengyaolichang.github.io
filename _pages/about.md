@@ -17,9 +17,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 service: true # lists the Academic Service section of _data/cv.yml
 links: true # lists _data/links.yml; the section is hidden while that file is empty
 olympiad: >
-  In December 2021 I competed in the 37th China Mathematical Olympiad (CMO) as a member of the
-  Henan provincial team, scoring 63 out of 126 and winning a silver medal. I still coach
-  mathematical olympiad part time, working with secondary school students.
+  In December 2021 I competed in the 37th China Mathematical Olympiad as a member of the Henan
+  provincial team, scoring 63 out of 126 and winning a silver medal. I still coach competition
+  mathematics part time for middle school and high school students, and I teach for free in my
+  home province of Henan, where many of my students come from low-income families and communities.
 social: true # includes social icons at the bottom of the page
 
 announcements:
