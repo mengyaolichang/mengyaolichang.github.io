@@ -21,6 +21,8 @@ olympiad: >
   provincial team, scoring 63 out of 126 and winning a silver medal. I still coach competition
   mathematics part time for middle school and high school students, and I teach for free in my
   home province of Henan, where many of my students come from low-income families and communities.
+  I am proud to have graduated from Zhengzhou Longhu No. 1 High School, a young school and a very
+  good one.
 social: true # includes social icons at the bottom of the page
 
 announcements:
