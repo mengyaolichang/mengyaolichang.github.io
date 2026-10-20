@@ -67,7 +67,10 @@ permissions:
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    # Pinned: ubuntu-latest rolled to a newer image on 2026-10-20 and
+    # ruby/setup-ruby has no Ruby 3.3.5 build for it, so Setup Ruby failed
+    # immediately. Revisit when bumping ruby-version below.
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
