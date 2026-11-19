@@ -36,6 +36,6 @@ latest_posts:
 
 I am an undergraduate in Robotics Engineering at Peking University, expecting my B.E. in 2027; I started there in economics before moving to robotics. Since June 2026 I have been a student intern at the Robotics Institute, Carnegie Mellon University.
 
-I work in applied mathematics, with interests in control theory, robotics, information theory, and neighbouring areas.
+My research is in applied mathematics, at the intersection of dynamical systems, stochastic analysis, and geometric control.
 
 I am currently looking for research collaborations, and I am applying for PhD positions starting in Fall 2027. The best way to reach me is by [email](mailto:liyaoc@andrew.cmu.edu).
