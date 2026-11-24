@@ -61,6 +61,12 @@ on:
       - "!README.md"
   workflow_dispatch:
 
+# One deploy at a time. A newer push cancels an older run, so a slow run
+# cannot finish last and overwrite gh-pages with an earlier build.
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
