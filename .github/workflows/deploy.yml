@@ -77,6 +77,7 @@ jobs:
     # ruby/setup-ruby has no Ruby 3.3.5 build for it, so Setup Ruby failed
     # immediately. Revisit when bumping ruby-version below.
     runs-on: ubuntu-24.04
+    timeout-minutes: 20 # fail fast instead of hanging until the 6 hour default
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
@@ -98,7 +99,11 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
+          # The runner image usually ships ImageMagick. Only reach for apt when
+          # it is missing: apt-get update has hung for 45 minutes on some runners.
+          if ! command -v convert >/dev/null 2>&1; then
+            sudo apt-get update && sudo apt-get install -y imagemagick
+          fi
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
